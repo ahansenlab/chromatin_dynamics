@@ -1,16 +1,14 @@
-name: imaging_analysis
+name: first_passage_times
 channels:
   - conda-forge
-  - bioconda
 dependencies:
   - python
   - matplotlib
   - numpy
   - pandas
-  - pip
   - seaborn
-  - scipy
   - tqdm
-  - scikit-image
+  - scikit-survival
+  - pip
   - pip:
-    - saspt
+    - noctiluca
