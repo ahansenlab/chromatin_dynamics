@@ -1,0 +1,14 @@
+name: first_passage_times
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - matplotlib
+  - numpy
+  - pandas
+  - seaborn
+  - tqdm
+  - scikit-survival
+  - pip
+  - pip:
+    - noctiluca

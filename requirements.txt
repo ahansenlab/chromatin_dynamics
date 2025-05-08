@@ -1,4 +1,5 @@
 # The environment in which this repo was tested
+# Note: `06_FPT_simulations` is independent and has its own environment (and README)
 #
 # python: 3.9.9
 #
