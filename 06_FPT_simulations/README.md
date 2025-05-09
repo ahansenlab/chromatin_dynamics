@@ -1,7 +1,7 @@
 # First passage time (FPT) simulations
 
 This directory contains the code used to simulate first passage times (FPTs)
-for Chromatin Dynamics are Highly Subdiffusive Across Seven Orders of Magnitude. The jupyter notebook contains the code required to simulate fractional Brownian motion (fBm) trajectories and to calculate first passage times
+for "Chromatin Dynamics are Highly Subdiffusive Across Seven Orders of Magnitude". The jupyter notebook contains the code required to simulate fractional Brownian motion (fBm) trajectories and to calculate first passage times
 as well as the code to simulate motion blur in MINFLUX.
 
 ## Summary of contents
