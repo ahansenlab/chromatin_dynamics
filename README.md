@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15376429.svg)](https://doi.org/10.5281/zenodo.15376429)
+
 # Code for "Chromatin Dynamics are Highly Subdiffusive Across Seven Orders of Magnitude"
 
 This repository contains the code used in our chromatin dynamics paper (_in
