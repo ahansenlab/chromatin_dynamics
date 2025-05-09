@@ -1,6 +1,8 @@
 # Code for "Chromatin Dynamics are Highly Subdiffusive Across Seven Orders of Magnitude"
 
-This repository contains the code used in [REF to paper]. The associated data can be found at [ZENODO].
+This repository contains the code used in our chromatin dynamics paper (_in
+prep_). The associated data is available on
+[Zenodo](https://doi.org/10.5281/zenodo.15369544).
 
 Getting started
 ---------------
