@@ -8,7 +8,9 @@ dependencies:
   - pandas
   - seaborn
   - tqdm
+  - scipy
   - scikit-survival
   - pip
   - pip:
     - noctiluca
+    - bayesmsd
