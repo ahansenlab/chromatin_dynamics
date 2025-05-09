@@ -3,9 +3,11 @@
 #
 # python: 3.9.9
 #
-# In a fresh environment, it should be sufficient to install jupyter notebook
-# and bayesmsd 0.1.7; the other packages listed here will be installed as
-# dependencies.
+# In a fresh environment, it should be sufficient to install
+# - jupyter notebook
+# - bayesmsd 0.1.7    (for Bayesian MSD fitting)
+# - scikit-survival   (for analysis of FPT simulations)
+# the other packages listed here will be installed as dependencies.
 #
 # Note that bayesmsd uses cython for acceleration; compiled binaries are
 # currently only available for python 3.9 on linux-based systems. On other
@@ -32,6 +34,7 @@ cycler==0.12.1
 debugpy==1.8.14
 decorator==5.2.1
 defusedxml==0.7.1
+ecos==2.0.14
 exceptiongroup==1.2.2
 executing==2.2.0
 fastjsonschema==2.21.1
@@ -50,6 +53,7 @@ ipywidgets==8.1.7
 isoduration==20.11.0
 jedi==0.19.2
 Jinja2==3.1.6
+joblib==1.5.0
 json5==0.12.0
 jsonpointer==3.0.0
 jsonschema==4.23.0
@@ -78,7 +82,9 @@ nest-asyncio==1.6.0
 noctiluca==0.1.4
 notebook==7.4.2
 notebook_shim==0.2.4
+numexpr==2.10.2
 numpy==1.26.4
+osqp==1.0.4
 overrides==7.7.0
 packaging==25.0
 pandas==2.2.3
@@ -106,6 +112,8 @@ rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rouse==0.1.1
 rpds-py==0.24.0
+scikit-learn==1.5.2
+scikit-survival==0.23.1
 scipy==1.13.1
 Send2Trash==1.8.3
 six==1.17.0
@@ -113,6 +121,7 @@ sniffio==1.3.1
 soupsieve==2.7
 stack-data==0.6.3
 terminado==0.18.1
+threadpoolctl==3.6.0
 tinycss2==1.4.0
 tomli==2.2.1
 tornado==6.4.2
