@@ -4,7 +4,13 @@ This repository contains the code used in [REF to paper]. The associated data ca
 
 Getting started
 ---------------
-Most of the code in this repository requires the __data__ used in the study,
+1) __Clone this repo__ and move into it
+```
+$ git clone https://github.com/ahansenlab/chromatin_dynamics
+$ cd chromatin_dynamics
+```
+
+2) Most of the code in this repository requires the __data__ used in the study,
 which can be found at [ZENODO]. Download what you need (see below) and extract
 the `.zip` files.  Store the data in subdirectories corresponding to the names
 of the `.zip` files, breaking at double underscores. So, for example, the
@@ -12,14 +18,14 @@ contents of `raw_data__MINFLUX__production__npy.zip` should go to
 `raw_data/MINFLUX/production/npy`; the contents of `data.zip` go into `data/`;
 etc. This is where the code expects to find its data (which can of course be
 changed).
-
-__Clone this repo__ and move into it
 ```
-$ git clone https://github.com/ahansenlab/chromatin_dynamics
-$ cd chromatin_dynamics
+# unzip archives from Zenodo, breaking into subdirectories at double underscores
+$ mkdir -p raw_data/MINFLUX/production
+$ unzip raw_data__MINFLUX__production__npy.zip -d raw_data/MINFLUX/production/npy
+$ unzip data.zip
 ```
 
-Set up a python __virtual environment and run Jupyter Notebook__. Use python
+3) Set up a python __virtual environment and run Jupyter Notebook__. Use python
 3.9 for best results (as of writing, `bayesmsd` has its cython extension
 compiled only for python 3.9; using other versions will make fitting unbearably
 slow. If you're not interested in the Bayesian MSD fitting, use your favorite
@@ -31,7 +37,7 @@ $ pip install -r requirements.txt
 $ jupyter notebook
 ```
 
-Execute the notebooks you're curious about and enjoy exploring / development!
+4) Execute the notebooks you're curious about and enjoy exploring / development!
 
 What's happening where?
 -----------------------
