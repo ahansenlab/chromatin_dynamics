@@ -6,6 +6,11 @@ This repository contains the code used in our chromatin dynamics paper (_in
 prep_). The associated data is available on
 [Zenodo](https://doi.org/10.5281/zenodo.15369544).
 
+Note on versioning
+------------------
+We use tags for versioning the state of the repo at different stages of the
+submission cycle.
+
 Getting started
 ---------------
 1) __Clone this repo__ and move into it
